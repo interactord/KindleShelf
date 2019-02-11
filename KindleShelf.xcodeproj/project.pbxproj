@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F8A6FE6FC0B2F740398D1FC /* Pods_KindleShelf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D7F96856E986AF870016DB /* Pods_KindleShelf.framework */; };
+		2912739122105D5B00CBA80A /* Obserable+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2912739022105D5B00CBA80A /* Obserable+Ext.swift */; };
+		2912739322105D8200CBA80A /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2912739222105D8200CBA80A /* Optional.swift */; };
+		2912739522105D9500CBA80A /* UIViewController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2912739422105D9500CBA80A /* UIViewController+Ext.swift */; };
+		291273982210600F00CBA80A /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291273972210600F00CBA80A /* Network.swift */; };
+		2912739A2210608600CBA80A /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291273992210608600CBA80A /* NetworkError.swift */; };
+		2912739C2210609600CBA80A /* NetworkMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2912739B2210609600CBA80A /* NetworkMethod.swift */; };
+		2912739E221060CD00CBA80A /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2912739D221060CD00CBA80A /* Service.swift */; };
+		291273A12210624900CBA80A /* ApiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291273A02210624900CBA80A /* ApiProvider.swift */; };
+		291273A32210625200CBA80A /* ApiList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291273A22210625200CBA80A /* ApiList.swift */; };
+		291273A62210632F00CBA80A /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291273A52210632F00CBA80A /* Book.swift */; };
+		291273A82210633400CBA80A /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291273A72210633400CBA80A /* Page.swift */; };
+		291273AA22106A9400CBA80A /* ApiNetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291273A922106A9400CBA80A /* ApiNetworkProvider.swift */; };
+		29F13FC92210521E0061BC30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F13FC82210521E0061BC30 /* AppDelegate.swift */; };
+		29F13FD02210521E0061BC30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29F13FCF2210521E0061BC30 /* Assets.xcassets */; };
+		29F13FD32210521E0061BC30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29F13FD12210521E0061BC30 /* LaunchScreen.storyboard */; };
+		29F13FE52210561A0061BC30 /* ShelfListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F13FE42210561A0061BC30 /* ShelfListViewController.swift */; };
+		29F13FE82210566A0061BC30 /* ShelfNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F13FE72210566A0061BC30 /* ShelfNavigationController.swift */; };
+		29F13FEB221057490061BC30 /* ShelfListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F13FEA221057490061BC30 /* ShelfListViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2912739022105D5B00CBA80A /* Obserable+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Obserable+Ext.swift"; sourceTree = "<group>"; };
+		2912739222105D8200CBA80A /* Optional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Optional.swift; sourceTree = "<group>"; };
+		2912739422105D9500CBA80A /* UIViewController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Ext.swift"; sourceTree = "<group>"; };
+		291273972210600F00CBA80A /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		291273992210608600CBA80A /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		2912739B2210609600CBA80A /* NetworkMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMethod.swift; sourceTree = "<group>"; };
+		2912739D221060CD00CBA80A /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		291273A02210624900CBA80A /* ApiProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiProvider.swift; sourceTree = "<group>"; };
+		291273A22210625200CBA80A /* ApiList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiList.swift; sourceTree = "<group>"; };
+		291273A52210632F00CBA80A /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		291273A72210633400CBA80A /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		291273A922106A9400CBA80A /* ApiNetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiNetworkProvider.swift; sourceTree = "<group>"; };
+		29F13FC52210521E0061BC30 /* KindleShelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KindleShelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		29F13FC82210521E0061BC30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		29F13FCF2210521E0061BC30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		29F13FD22210521E0061BC30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		29F13FD42210521E0061BC30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29F13FE42210561A0061BC30 /* ShelfListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfListViewController.swift; sourceTree = "<group>"; };
+		29F13FE72210566A0061BC30 /* ShelfNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfNavigationController.swift; sourceTree = "<group>"; };
+		29F13FEA221057490061BC30 /* ShelfListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfListViewModel.swift; sourceTree = "<group>"; };
+		AFD92852446EB9661E6EF154 /* Pods-KindleShelf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KindleShelf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KindleShelf/Pods-KindleShelf.debug.xcconfig"; sourceTree = "<group>"; };
+		D39DDEC00815B06AF3015C53 /* Pods-KindleShelf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KindleShelf.release.xcconfig"; path = "Pods/Target Support Files/Pods-KindleShelf/Pods-KindleShelf.release.xcconfig"; sourceTree = "<group>"; };
+		D8D7F96856E986AF870016DB /* Pods_KindleShelf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KindleShelf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29F13FC22210521E0061BC30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F8A6FE6FC0B2F740398D1FC /* Pods_KindleShelf.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		291273962210600100CBA80A /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				291273972210600F00CBA80A /* Network.swift */,
+				291273992210608600CBA80A /* NetworkError.swift */,
+				2912739B2210609600CBA80A /* NetworkMethod.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		2912739F2210624100CBA80A /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				291273A02210624900CBA80A /* ApiProvider.swift */,
+				291273A22210625200CBA80A /* ApiList.swift */,
+				291273A922106A9400CBA80A /* ApiNetworkProvider.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		29F13FBC2210521E0061BC30 = {
+			isa = PBXGroup;
+			children = (
+				29F13FC72210521E0061BC30 /* KindleShelf */,
+				29F13FC62210521E0061BC30 /* Products */,
+				4300A1BD6C5961B8719D443E /* Pods */,
+				6F1A4CC4055F0CD4A8AB6970 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		29F13FC62210521E0061BC30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29F13FC52210521E0061BC30 /* KindleShelf.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29F13FC72210521E0061BC30 /* KindleShelf */ = {
+			isa = PBXGroup;
+			children = (
+				29F13FE2221055C20061BC30 /* Resources */,
+				29F13FC82210521E0061BC30 /* AppDelegate.swift */,
+				29F13FDD221055580061BC30 /* Models */,
+				29F13FDA221055290061BC30 /* Scenes */,
+				29F13FE1221055AB0061BC30 /* Utilities */,
+			);
+			path = KindleShelf;
+			sourceTree = "<group>";
+		};
+		29F13FDA221055290061BC30 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				29F13FE6221056540061BC30 /* Common */,
+				29F13FDC221055490061BC30 /* View */,
+				29F13FDB2210553E0061BC30 /* ViewModel */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		29F13FDB2210553E0061BC30 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				29F13FEA221057490061BC30 /* ShelfListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		29F13FDC221055490061BC30 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				29F13FE42210561A0061BC30 /* ShelfListViewController.swift */,
+				29F13FE72210566A0061BC30 /* ShelfNavigationController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		29F13FDD221055580061BC30 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				29F13FE3221055EF0061BC30 /* Service */,
+				29F13FE02210557D0061BC30 /* Provider */,
+				29F13FDF221055740061BC30 /* Platform */,
+				29F13FDE2210556D0061BC30 /* Entities */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		29F13FDE2210556D0061BC30 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				291273A52210632F00CBA80A /* Book.swift */,
+				291273A72210633400CBA80A /* Page.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		29F13FDF221055740061BC30 /* Platform */ = {
+			isa = PBXGroup;
+			children = (
+				291273962210600100CBA80A /* Network */,
+			);
+			path = Platform;
+			sourceTree = "<group>";
+		};
+		29F13FE02210557D0061BC30 /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				2912739F2210624100CBA80A /* Api */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		29F13FE1221055AB0061BC30 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2912739022105D5B00CBA80A /* Obserable+Ext.swift */,
+				2912739222105D8200CBA80A /* Optional.swift */,
+				2912739422105D9500CBA80A /* UIViewController+Ext.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		29F13FE2221055C20061BC30 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				29F13FCF2210521E0061BC30 /* Assets.xcassets */,
+				29F13FD42210521E0061BC30 /* Info.plist */,
+				29F13FD12210521E0061BC30 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		29F13FE3221055EF0061BC30 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				2912739D221060CD00CBA80A /* Service.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		29F13FE6221056540061BC30 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4300A1BD6C5961B8719D443E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AFD92852446EB9661E6EF154 /* Pods-KindleShelf.debug.xcconfig */,
+				D39DDEC00815B06AF3015C53 /* Pods-KindleShelf.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6F1A4CC4055F0CD4A8AB6970 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8D7F96856E986AF870016DB /* Pods_KindleShelf.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29F13FC42210521E0061BC30 /* KindleShelf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29F13FD72210521E0061BC30 /* Build configuration list for PBXNativeTarget "KindleShelf" */;
+			buildPhases = (
+				C7A4D883E30F188F5894D1C2 /* [CP] Check Pods Manifest.lock */,
+				29F13FE9221056C50061BC30 /* Swift Lint */,
+				29F13FC12210521E0061BC30 /* Sources */,
+				29F13FC22210521E0061BC30 /* Frameworks */,
+				29F13FC32210521E0061BC30 /* Resources */,
+				DEA240CBBC71A1EAF5DC4A0A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KindleShelf;
+			productName = KindleShelf;
+			productReference = 29F13FC52210521E0061BC30 /* KindleShelf.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29F13FBD2210521E0061BC30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Scott Moon";
+				TargetAttributes = {
+					29F13FC42210521E0061BC30 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 29F13FC02210521E0061BC30 /* Build configuration list for PBXProject "KindleShelf" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29F13FBC2210521E0061BC30;
+			productRefGroup = 29F13FC62210521E0061BC30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29F13FC42210521E0061BC30 /* KindleShelf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29F13FC32210521E0061BC30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F13FD32210521E0061BC30 /* LaunchScreen.storyboard in Resources */,
+				29F13FD02210521E0061BC30 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29F13FE9221056C50061BC30 /* Swift Lint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Swift Lint";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint\n";
+		};
+		C7A4D883E30F188F5894D1C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KindleShelf-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEA240CBBC71A1EAF5DC4A0A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KindleShelf/Pods-KindleShelf-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Action/Action.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${PODS_ROOT}/Reveal-SDK/RevealServer-20/iOS/RevealServer.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxFlow/RxFlow.framework",
+				"${BUILT_PRODUCTS_DIR}/RxOptional/RxOptional.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Swinject/Swinject.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Action.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealServer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxFlow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxOptional.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swinject.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KindleShelf/Pods-KindleShelf-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29F13FC12210521E0061BC30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29F13FC92210521E0061BC30 /* AppDelegate.swift in Sources */,
+				29F13FEB221057490061BC30 /* ShelfListViewModel.swift in Sources */,
+				291273AA22106A9400CBA80A /* ApiNetworkProvider.swift in Sources */,
+				291273A62210632F00CBA80A /* Book.swift in Sources */,
+				291273982210600F00CBA80A /* Network.swift in Sources */,
+				2912739522105D9500CBA80A /* UIViewController+Ext.swift in Sources */,
+				291273A32210625200CBA80A /* ApiList.swift in Sources */,
+				29F13FE82210566A0061BC30 /* ShelfNavigationController.swift in Sources */,
+				2912739122105D5B00CBA80A /* Obserable+Ext.swift in Sources */,
+				2912739A2210608600CBA80A /* NetworkError.swift in Sources */,
+				29F13FE52210561A0061BC30 /* ShelfListViewController.swift in Sources */,
+				2912739E221060CD00CBA80A /* Service.swift in Sources */,
+				291273A12210624900CBA80A /* ApiProvider.swift in Sources */,
+				2912739322105D8200CBA80A /* Optional.swift in Sources */,
+				2912739C2210609600CBA80A /* NetworkMethod.swift in Sources */,
+				291273A82210633400CBA80A /* Page.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		29F13FD12210521E0061BC30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29F13FD22210521E0061BC30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29F13FD52210521E0061BC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		29F13FD62210521E0061BC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29F13FD82210521E0061BC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFD92852446EB9661E6EF154 /* Pods-KindleShelf.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/KindleShelf/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.jiwonsis.KindleShelf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		29F13FD92210521E0061BC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D39DDEC00815B06AF3015C53 /* Pods-KindleShelf.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/KindleShelf/Resources/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.jiwonsis.KindleShelf;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29F13FC02210521E0061BC30 /* Build configuration list for PBXProject "KindleShelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F13FD52210521E0061BC30 /* Debug */,
+				29F13FD62210521E0061BC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29F13FD72210521E0061BC30 /* Build configuration list for PBXNativeTarget "KindleShelf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29F13FD82210521E0061BC30 /* Debug */,
+				29F13FD92210521E0061BC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29F13FBD2210521E0061BC30 /* Project object */;
+}
