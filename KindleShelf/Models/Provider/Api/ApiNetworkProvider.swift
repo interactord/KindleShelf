@@ -28,13 +28,4 @@ class ApiNetworkProvider: ApiProvider {
         return network.image(url: url)
     }
 
-//        let url = ApiList.getBookList.url
-//        return network.request(method: .get, url: url, parameters: nil, type: Book.self)
-//    }
-
-//    func getDetailAppgetBookCoverImage(url: String) -> Observable<UIImage> {
-//        let url = ApiList.getBookCoverImage(url: url).url
-//        return network.image(url: url)
-//    }
-
 }

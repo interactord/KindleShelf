@@ -19,6 +19,7 @@ target 'KindleShelf' do
   # Network
   pod 'Alamofire'
   pod 'ObjectMapper'
+  pod 'AlamofireImage'
 
   # lint
   pod 'SwiftLint'

@@ -8,6 +8,7 @@
 
 import RxSwift
 import Alamofire
+import AlamofireImage
 import ObjectMapper
 
 protocol HasNetwork {
@@ -69,6 +70,12 @@ final class Network: Networking {
     }
 
     func image(url: String) -> Observable<UIImage> {
+        let imageCache = AutoPurgingImageCache()
+
+        if let cacheImage = imageCache.image(withIdentifier: url) {
+            return Observable.just(cacheImage)
+        }
+
         return Observable.create { observer in
             let request = Alamofire.request(url, method: .get)
                 .validate()
@@ -79,7 +86,13 @@ final class Network: Networking {
                             observer.onError(NetworkError.incorrectDataReturned)
                             return
                         }
-                        observer.onNext(image)
+                        imageCache.add(image, withIdentifier: url)
+                        if let cacheImage = imageCache.image(withIdentifier: url) {
+                            observer.onNext(cacheImage)
+                        } else {
+                            print("failed save from downloaded image")
+                        }
+
                         observer.onCompleted()
                     case .failure(let error):
                         observer.onError(error)
