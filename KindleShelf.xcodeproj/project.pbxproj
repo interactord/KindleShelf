@@ -20,12 +20,20 @@
 		291273A62210632F00CBA80A /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291273A52210632F00CBA80A /* Book.swift */; };
 		291273A82210633400CBA80A /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291273A72210633400CBA80A /* Page.swift */; };
 		291273AA22106A9400CBA80A /* ApiNetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291273A922106A9400CBA80A /* ApiNetworkProvider.swift */; };
+		2983EACC22130BD50023B335 /* ViewModelBased.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2983EACB22130BD50023B335 /* ViewModelBased.swift */; };
+		2983EACF22130C160023B335 /* ShelfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2983EACE22130C160023B335 /* ShelfViewController.swift */; };
+		2983EAD122130ECB0023B335 /* ShelfNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2983EAD022130ECB0023B335 /* ShelfNavigationController.swift */; };
+		2983EAD522130FB80023B335 /* ShelfViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2983EAD422130FB80023B335 /* ShelfViewModel.swift */; };
+		2983EAD722131F810023B335 /* ServiceViewModelBased.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2983EAD622131F810023B335 /* ServiceViewModelBased.swift */; };
+		2983EAD922131F8B0023B335 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2983EAD822131F8B0023B335 /* ViewModel.swift */; };
+		2983EADE221321250023B335 /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2983EADD221321250023B335 /* BookCell.swift */; };
+		2983EAE02213216F0023B335 /* CellViewBased.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2983EADF2213216F0023B335 /* CellViewBased.swift */; };
+		2986B355221590B50036E2CD /* BookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2986B354221590B50036E2CD /* BookViewModel.swift */; };
+		2986B35822159E1E0036E2CD /* KindleNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2986B35722159E1E0036E2CD /* KindleNavigationController.swift */; };
+		2986B35A2215B52E0036E2CD /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2986B3592215B52E0036E2CD /* UIView+Ext.swift */; };
 		29F13FC92210521E0061BC30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F13FC82210521E0061BC30 /* AppDelegate.swift */; };
 		29F13FD02210521E0061BC30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29F13FCF2210521E0061BC30 /* Assets.xcassets */; };
 		29F13FD32210521E0061BC30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29F13FD12210521E0061BC30 /* LaunchScreen.storyboard */; };
-		29F13FE52210561A0061BC30 /* ShelfListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F13FE42210561A0061BC30 /* ShelfListViewController.swift */; };
-		29F13FE82210566A0061BC30 /* ShelfNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F13FE72210566A0061BC30 /* ShelfNavigationController.swift */; };
-		29F13FEB221057490061BC30 /* ShelfListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F13FEA221057490061BC30 /* ShelfListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,14 +49,22 @@
 		291273A52210632F00CBA80A /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		291273A72210633400CBA80A /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		291273A922106A9400CBA80A /* ApiNetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiNetworkProvider.swift; sourceTree = "<group>"; };
+		2983EACB22130BD50023B335 /* ViewModelBased.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBased.swift; sourceTree = "<group>"; };
+		2983EACE22130C160023B335 /* ShelfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfViewController.swift; sourceTree = "<group>"; };
+		2983EAD022130ECB0023B335 /* ShelfNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfNavigationController.swift; sourceTree = "<group>"; };
+		2983EAD422130FB80023B335 /* ShelfViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfViewModel.swift; sourceTree = "<group>"; };
+		2983EAD622131F810023B335 /* ServiceViewModelBased.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewModelBased.swift; sourceTree = "<group>"; };
+		2983EAD822131F8B0023B335 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		2983EADD221321250023B335 /* BookCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
+		2983EADF2213216F0023B335 /* CellViewBased.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellViewBased.swift; sourceTree = "<group>"; };
+		2986B354221590B50036E2CD /* BookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookViewModel.swift; sourceTree = "<group>"; };
+		2986B35722159E1E0036E2CD /* KindleNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KindleNavigationController.swift; sourceTree = "<group>"; };
+		2986B3592215B52E0036E2CD /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		29F13FC52210521E0061BC30 /* KindleShelf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KindleShelf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29F13FC82210521E0061BC30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29F13FCF2210521E0061BC30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		29F13FD22210521E0061BC30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		29F13FD42210521E0061BC30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		29F13FE42210561A0061BC30 /* ShelfListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfListViewController.swift; sourceTree = "<group>"; };
-		29F13FE72210566A0061BC30 /* ShelfNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfNavigationController.swift; sourceTree = "<group>"; };
-		29F13FEA221057490061BC30 /* ShelfListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfListViewModel.swift; sourceTree = "<group>"; };
 		AFD92852446EB9661E6EF154 /* Pods-KindleShelf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KindleShelf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KindleShelf/Pods-KindleShelf.debug.xcconfig"; sourceTree = "<group>"; };
 		D39DDEC00815B06AF3015C53 /* Pods-KindleShelf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KindleShelf.release.xcconfig"; path = "Pods/Target Support Files/Pods-KindleShelf/Pods-KindleShelf.release.xcconfig"; sourceTree = "<group>"; };
 		D8D7F96856E986AF870016DB /* Pods_KindleShelf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KindleShelf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,6 +102,45 @@
 			path = Api;
 			sourceTree = "<group>";
 		};
+		2983EACA22130BBE0023B335 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				2983EACB22130BD50023B335 /* ViewModelBased.swift */,
+				2983EAD622131F810023B335 /* ServiceViewModelBased.swift */,
+				2983EAD822131F8B0023B335 /* ViewModel.swift */,
+				2983EADF2213216F0023B335 /* CellViewBased.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		2983EACD22130C000023B335 /* Shelf */ = {
+			isa = PBXGroup;
+			children = (
+				2983EADC221321170023B335 /* Cells */,
+				2983EACE22130C160023B335 /* ShelfViewController.swift */,
+				2983EAD022130ECB0023B335 /* ShelfNavigationController.swift */,
+				2983EAD422130FB80023B335 /* ShelfViewModel.swift */,
+				2986B354221590B50036E2CD /* BookViewModel.swift */,
+			);
+			path = Shelf;
+			sourceTree = "<group>";
+		};
+		2983EADC221321170023B335 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2983EADD221321250023B335 /* BookCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		2986B35622159E140036E2CD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2986B35722159E1E0036E2CD /* KindleNavigationController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		29F13FBC2210521E0061BC30 = {
 			isa = PBXGroup;
 			children = (
@@ -107,40 +162,23 @@
 		29F13FC72210521E0061BC30 /* KindleShelf */ = {
 			isa = PBXGroup;
 			children = (
+				2983EACA22130BBE0023B335 /* Protocols */,
 				29F13FE2221055C20061BC30 /* Resources */,
 				29F13FC82210521E0061BC30 /* AppDelegate.swift */,
 				29F13FDD221055580061BC30 /* Models */,
-				29F13FDA221055290061BC30 /* Scenes */,
+				29F13FDA221055290061BC30 /* Features */,
 				29F13FE1221055AB0061BC30 /* Utilities */,
 			);
 			path = KindleShelf;
 			sourceTree = "<group>";
 		};
-		29F13FDA221055290061BC30 /* Scenes */ = {
+		29F13FDA221055290061BC30 /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				29F13FE6221056540061BC30 /* Common */,
-				29F13FDC221055490061BC30 /* View */,
-				29F13FDB2210553E0061BC30 /* ViewModel */,
+				2986B35622159E140036E2CD /* Common */,
+				2983EACD22130C000023B335 /* Shelf */,
 			);
-			path = Scenes;
-			sourceTree = "<group>";
-		};
-		29F13FDB2210553E0061BC30 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-				29F13FEA221057490061BC30 /* ShelfListViewModel.swift */,
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		29F13FDC221055490061BC30 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				29F13FE42210561A0061BC30 /* ShelfListViewController.swift */,
-				29F13FE72210566A0061BC30 /* ShelfNavigationController.swift */,
-			);
-			path = View;
+			path = Features;
 			sourceTree = "<group>";
 		};
 		29F13FDD221055580061BC30 /* Models */ = {
@@ -185,6 +223,7 @@
 				2912739022105D5B00CBA80A /* Obserable+Ext.swift */,
 				2912739222105D8200CBA80A /* Optional.swift */,
 				2912739422105D9500CBA80A /* UIViewController+Ext.swift */,
+				2986B3592215B52E0036E2CD /* UIView+Ext.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -205,13 +244,6 @@
 				2912739D221060CD00CBA80A /* Service.swift */,
 			);
 			path = Service;
-			sourceTree = "<group>";
-		};
-		29F13FE6221056540061BC30 /* Common */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Common;
 			sourceTree = "<group>";
 		};
 		4300A1BD6C5961B8719D443E /* Pods */ = {
@@ -343,6 +375,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Reusable/Reusable.framework",
 				"${PODS_ROOT}/Reveal-SDK/RevealServer-20/iOS/RevealServer.framework",
 				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
@@ -359,6 +392,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealServer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
@@ -381,22 +415,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2983EAD122130ECB0023B335 /* ShelfNavigationController.swift in Sources */,
 				29F13FC92210521E0061BC30 /* AppDelegate.swift in Sources */,
-				29F13FEB221057490061BC30 /* ShelfListViewModel.swift in Sources */,
+				2983EAD522130FB80023B335 /* ShelfViewModel.swift in Sources */,
 				291273AA22106A9400CBA80A /* ApiNetworkProvider.swift in Sources */,
+				2983EADE221321250023B335 /* BookCell.swift in Sources */,
+				2986B355221590B50036E2CD /* BookViewModel.swift in Sources */,
 				291273A62210632F00CBA80A /* Book.swift in Sources */,
 				291273982210600F00CBA80A /* Network.swift in Sources */,
+				2986B35A2215B52E0036E2CD /* UIView+Ext.swift in Sources */,
 				2912739522105D9500CBA80A /* UIViewController+Ext.swift in Sources */,
 				291273A32210625200CBA80A /* ApiList.swift in Sources */,
-				29F13FE82210566A0061BC30 /* ShelfNavigationController.swift in Sources */,
 				2912739122105D5B00CBA80A /* Obserable+Ext.swift in Sources */,
 				2912739A2210608600CBA80A /* NetworkError.swift in Sources */,
-				29F13FE52210561A0061BC30 /* ShelfListViewController.swift in Sources */,
 				2912739E221060CD00CBA80A /* Service.swift in Sources */,
+				2983EAD922131F8B0023B335 /* ViewModel.swift in Sources */,
+				2983EACC22130BD50023B335 /* ViewModelBased.swift in Sources */,
+				2983EAD722131F810023B335 /* ServiceViewModelBased.swift in Sources */,
 				291273A12210624900CBA80A /* ApiProvider.swift in Sources */,
+				2983EACF22130C160023B335 /* ShelfViewController.swift in Sources */,
 				2912739322105D8200CBA80A /* Optional.swift in Sources */,
 				2912739C2210609600CBA80A /* NetworkMethod.swift in Sources */,
 				291273A82210633400CBA80A /* Page.swift in Sources */,
+				2986B35822159E1E0036E2CD /* KindleNavigationController.swift in Sources */,
+				2983EAE02213216F0023B335 /* CellViewBased.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

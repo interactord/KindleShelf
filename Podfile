@@ -9,6 +9,9 @@ target 'KindleShelf' do
 
   # UI
   pod 'SnapKit'
+  
+  # Util
+  pod 'Reusable'
 
   # DI
   pod 'Swinject'

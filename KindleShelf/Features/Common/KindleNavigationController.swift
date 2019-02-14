@@ -1,14 +1,14 @@
 //
-//  ShelfNavigationController.swift
+//  KindleNavigationController.swift
 //  KindleShelf
 //
-//  Created by SANGBONG MOON on 10/02/2019.
+//  Created by SANGBONG MOON on 14/02/2019.
 //  Copyright © 2019 Scott Moon. All rights reserved.
 //
 
 import UIKit
 
-class ShelfNavigationController: UINavigationController {
+class KindleNavigationController: UINavigationController {
 
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
         super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
@@ -16,14 +16,14 @@ class ShelfNavigationController: UINavigationController {
 
     override init(rootViewController: UIViewController) {
         super.init(rootViewController: rootViewController)
-        setup()
+
+        setupViews()
     }
 
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 
-    func setup() {
+    func setupViews() {
     }
-
 }

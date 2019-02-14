@@ -5,6 +5,11 @@ PODS:
   - Alamofire (4.8.1)
   - Differentiator (3.1.0)
   - ObjectMapper (3.4.2)
+  - Reusable (4.0.5):
+    - Reusable/Storyboard (= 4.0.5)
+    - Reusable/View (= 4.0.5)
+  - Reusable/Storyboard (4.0.5)
+  - Reusable/View (4.0.5)
   - Reveal-SDK (20)
   - RxAtomic (4.4.0)
   - RxCocoa (4.4.0):
@@ -29,6 +34,7 @@ DEPENDENCIES:
   - Action
   - Alamofire
   - ObjectMapper
+  - Reusable
   - Reveal-SDK
   - RxCocoa (~> 4.0)
   - RxDataSources
@@ -45,6 +51,7 @@ SPEC REPOS:
     - Alamofire
     - Differentiator
     - ObjectMapper
+    - Reusable
     - Reveal-SDK
     - RxAtomic
     - RxCocoa
@@ -61,6 +68,7 @@ SPEC CHECKSUMS:
   Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
   Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
   ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  Reusable: 188be1a54ac0691bc66e5bb24ec6eb91971b315b
   Reveal-SDK: 43206a57f575632fd304e85385cc259b5d359e32
   RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
   RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
@@ -72,6 +80,6 @@ SPEC CHECKSUMS:
   SwiftLint: a54bf1fe12b55c68560eb2a7689dfc81458508f7
   Swinject: 82cdb851f63f91bba974e3eca1d69780f2f7677e
 
-PODFILE CHECKSUM: 2bcb1537fae09517db58e96693f9a00c72a6c3c3
+PODFILE CHECKSUM: c250c2fa13ba88f9bc85dfd20650ba62be8ef409
 
 COCOAPODS: 1.5.2

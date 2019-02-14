@@ -19,12 +19,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         let apiProvider = ApiNetworkProvider(network: Network())
         let service = Service(apiProvider: apiProvider)
-        let viewModel = ShelfListViewModel(service: service)
-        let viewController = ShelfListViewController()
-        viewController.viewModel = viewModel
-
-        let navController = ShelfNavigationController(rootViewController: viewController)
-        window?.rootViewController = navController
+        let viewModel = ShelfViewModel(services: service)
+        let viewController = ShelfViewController.instantiate(viewModel: viewModel)
+        let navigationController = KindleNavigationController(rootViewController: viewController)
+        window?.rootViewController = navigationController
 
         window?.makeKeyAndVisible()
 

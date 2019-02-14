@@ -24,7 +24,8 @@ class ApiNetworkProvider: ApiProvider {
     }
 
     func getDetailAppgetBookCoverImage(url: String) -> Observable<UIImage> {
-        return Observable.never()
+        let url = ApiList.getBookCoverImage(url: url).url
+        return network.image(url: url)
     }
 
 //        let url = ApiList.getBookList.url
