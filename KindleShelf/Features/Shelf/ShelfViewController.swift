@@ -35,6 +35,32 @@ class ShelfViewController: UIViewController, ServicesViewModelBased {
         return item
     }()
 
+    private let viewTypeSeamentControl: UISegmentedControl = {
+        let segmentControl = UISegmentedControl(items: ["Cloud", "Device"])
+        segmentControl.tintColor = .white
+        segmentControl.selectedSegmentIndex = 0
+        return segmentControl
+    }()
+
+    private let bottomBar: UIToolbar = {
+        let toolbar = UIToolbar(frame: .zero)
+        toolbar.barTintColor = UIColor(red: 40 / 255, green: 40 / 255, blue: 40 / 255, alpha: 1)
+        toolbar.isTranslucent = false
+        return toolbar
+    }()
+
+    private let gridMenu: UIBarButtonItem = {
+        let image = #imageLiteral(resourceName: "grid").withRenderingMode(.alwaysOriginal)
+        let item = UIBarButtonItem(image: image, style: .plain, target: nil, action: nil)
+        return item
+    }()
+
+    private let sortMenu: UIBarButtonItem = {
+        let image = #imageLiteral(resourceName: "sort").withRenderingMode(.alwaysOriginal)
+        let item = UIBarButtonItem(image: image, style: .plain, target: nil, action: nil)
+        return item
+    }()
+
     typealias ServiceViewModelType = ShelfViewModel
 
     var viewModel: ShelfViewModel!
@@ -47,7 +73,7 @@ class ShelfViewController: UIViewController, ServicesViewModelBased {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor(red: 40 / 255, green: 40 / 255, blue: 40 / 255, alpha: 1)
+        view.backgroundColor = UIColor(red: 50 / 255, green: 50 / 255, blue: 50 / 255, alpha: 1)
         register()
         setNavigation()
         setupViews()
@@ -68,6 +94,22 @@ class ShelfViewController: UIViewController, ServicesViewModelBased {
                 .bind(to: baseView.rx.items(dataSource: dataSource))
                 .disposed(by: bag)
         }
+
+        menuItem.rx.tap
+            .bind { self.openMenu() }
+            .disposed(by: bag)
+
+        amazonItem.rx.tap
+            .bind { self.openAmazonStore() }
+            .disposed(by: bag)
+
+        gridMenu.rx.tap
+            .bind { self.changeGrid() }
+            .disposed(by: bag)
+
+        sortMenu.rx.tap
+            .bind { self.sortItem() }
+            .disposed(by: bag)
 
     }
 
@@ -91,11 +133,27 @@ class ShelfViewController: UIViewController, ServicesViewModelBased {
 
     func setupViews() {
         view.addSubview(baseView)
+        view.addSubview(bottomBar)
+
+        let flex = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
+
+        let viewTypeItem = UIBarButtonItem(customView: viewTypeSeamentControl)
+
+        bottomBar.setItems([gridMenu, flex, viewTypeItem, flex, sortMenu], animated: true)
+
     }
 
     func setupConstants() {
+
+        bottomBar.snp.makeConstraints { make in
+            make.left.right.equalTo(self.view)
+            make.height.equalTo(54)
+            make.bottom.equalTo(self.view.snp_bottomMargin)
+        }
+
         baseView.snp.makeConstraints { make in
-            make.top.left.bottom.right.equalTo(self.view)
+            make.bottom.equalTo(bottomBar.snp.top)
+            make.top.left.right.equalTo(self.view)
         }
     }
 
@@ -103,12 +161,22 @@ class ShelfViewController: UIViewController, ServicesViewModelBased {
         navigationItem.title = "Kindle"
         navigationItem.leftBarButtonItem = menuItem
         navigationItem.rightBarButtonItem = amazonItem
+    }
 
-        navigationController?.navigationBar.barTintColor = UIColor(red: 40 / 255, green: 40 / 255, blue: 40 / 255, alpha: 1)
-        navigationController?.navigationBar.isTranslucent = false
-        navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
-        let dividerColor = UIColor(red: 60 / 255, green: 60 / 255, blue: 60 / 255, alpha: 1)
-        navigationController?.navigationBar.addBorders(edges: [.bottom], color: dividerColor, thickness: 0.8)
+    func openMenu() {
+        print("open menu!")
+    }
+
+    func openAmazonStore() {
+        print("open Amazon Store")
+    }
+
+    func changeGrid() {
+        print("change Grid")
+    }
+
+    func sortItem() {
+        print("sort Item!")
     }
 }
 

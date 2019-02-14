@@ -22,7 +22,6 @@
 		291273AA22106A9400CBA80A /* ApiNetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 291273A922106A9400CBA80A /* ApiNetworkProvider.swift */; };
 		2983EACC22130BD50023B335 /* ViewModelBased.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2983EACB22130BD50023B335 /* ViewModelBased.swift */; };
 		2983EACF22130C160023B335 /* ShelfViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2983EACE22130C160023B335 /* ShelfViewController.swift */; };
-		2983EAD122130ECB0023B335 /* ShelfNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2983EAD022130ECB0023B335 /* ShelfNavigationController.swift */; };
 		2983EAD522130FB80023B335 /* ShelfViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2983EAD422130FB80023B335 /* ShelfViewModel.swift */; };
 		2983EAD722131F810023B335 /* ServiceViewModelBased.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2983EAD622131F810023B335 /* ServiceViewModelBased.swift */; };
 		2983EAD922131F8B0023B335 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2983EAD822131F8B0023B335 /* ViewModel.swift */; };
@@ -51,7 +50,6 @@
 		291273A922106A9400CBA80A /* ApiNetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiNetworkProvider.swift; sourceTree = "<group>"; };
 		2983EACB22130BD50023B335 /* ViewModelBased.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBased.swift; sourceTree = "<group>"; };
 		2983EACE22130C160023B335 /* ShelfViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfViewController.swift; sourceTree = "<group>"; };
-		2983EAD022130ECB0023B335 /* ShelfNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfNavigationController.swift; sourceTree = "<group>"; };
 		2983EAD422130FB80023B335 /* ShelfViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfViewModel.swift; sourceTree = "<group>"; };
 		2983EAD622131F810023B335 /* ServiceViewModelBased.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceViewModelBased.swift; sourceTree = "<group>"; };
 		2983EAD822131F8B0023B335 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
@@ -118,7 +116,6 @@
 			children = (
 				2983EADC221321170023B335 /* Cells */,
 				2983EACE22130C160023B335 /* ShelfViewController.swift */,
-				2983EAD022130ECB0023B335 /* ShelfNavigationController.swift */,
 				2983EAD422130FB80023B335 /* ShelfViewModel.swift */,
 				2986B354221590B50036E2CD /* BookViewModel.swift */,
 			);
@@ -417,7 +414,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2983EAD122130ECB0023B335 /* ShelfNavigationController.swift in Sources */,
 				29F13FC92210521E0061BC30 /* AppDelegate.swift in Sources */,
 				2983EAD522130FB80023B335 /* ShelfViewModel.swift in Sources */,
 				291273AA22106A9400CBA80A /* ApiNetworkProvider.swift in Sources */,
